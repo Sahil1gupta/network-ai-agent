@@ -1,0 +1,76 @@
+[
+  {
+    "ticket_id": "INC-20260417-011501",
+    "created_at": "2026-04-17T01:15:01.818109",
+    "status": "OPEN",
+    "alarm_id": "ALM-00047",
+    "device": "BTS-Site-0023",
+    "region": "Mecca",
+    "alarm_type": "POWER_FAULT",
+    "description": "Power supply unit failure on BTS-Site-0023",
+    "priority": "P1",
+    "urgency": "immediate",
+    "affected_users": "5000",
+    "root_cause": "The power supply unit on BTS-Site-0023 has failed, causing a power fault alarm.",
+    "confidence": "high",
+    "resolution_steps": [
+      "Replace the failed PSU from the spare parts inventory.",
+      "Check the PSU status LED to confirm the replacement resolves the issue.",
+      "Verify SNMP alarm clears after PSU replacement.",
+      "If no spare PSU is available, escalate to procurement immediately.",
+      "Coordinate with the facilities team if there is a commercial power issue."
+    ],
+    "escalate_to_l3": false,
+    "estimated_fix_time": "1 hour",
+    "assigned_team": "NOC-L2"
+  },
+  {
+    "ticket_id": "INC-20260417-011506",
+    "created_at": "2026-04-17T01:15:06.936536",
+    "status": "OPEN",
+    "alarm_id": "ALM-00018",
+    "device": "AccessSwitch-001",
+    "region": "Riyadh",
+    "alarm_type": "POWER_FAULT",
+    "description": "Power supply unit failure on AccessSwitch-001",
+    "priority": "P1",
+    "urgency": "immediate",
+    "affected_users": "500",
+    "root_cause": "The power supply unit on AccessSwitch-001 has failed.",
+    "confidence": "high",
+    "resolution_steps": [
+      "Replace the failed PSU from the spare parts inventory.",
+      "Prepare for emergency failover as this is a single PSU setup.",
+      "Check if there is a commercial power issue and coordinate with the facilities team if necessary.",
+      "If the issue is due to a UPS failure, dispatch an electrician immediately."
+    ],
+    "escalate_to_l3": false,
+    "estimated_fix_time": "1 hour",
+    "assigned_team": "NOC-L2"
+  },
+  {
+    "ticket_id": "INC-20260417-011513",
+    "created_at": "2026-04-17T01:15:13.385604",
+    "status": "OPEN",
+    "alarm_id": "ALM-00058",
+    "device": "BTS-Site-0004",
+    "region": "Medina",
+    "alarm_type": "LINK_FAILURE",
+    "description": "Physical link down on interface GigabitEthernet1/37",
+    "priority": "P1",
+    "urgency": "immediate",
+    "affected_users": "1000",
+    "root_cause": "Physical link failure is the most common cause for this type of alarm.",
+    "confidence": "high",
+    "resolution_steps": [
+      "Inspect and replace the cable connected to GigabitEthernet1/37.",
+      "Check and replace the SFP module if necessary.",
+      "Contact the upstream provider to verify if there are any issues on their end.",
+      "Verify the physical connections and ensure they are secure.",
+      "Check for any visible damage to the hardware."
+    ],
+    "escalate_to_l3": false,
+    "estimated_fix_time": "2 hours",
+    "assigned_team": "NOC-L2"
+  }
+]

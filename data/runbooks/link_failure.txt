@@ -1,0 +1,29 @@
+RUNBOOK: LINK_FAILURE — Physical Interface Down
+================================================
+Severity: CRITICAL or MAJOR
+Affected: All services traversing the failed interface
+
+SYMPTOMS:
+- Interface shows line protocol is down
+- All BGP and OSPF neighbors on that interface drop
+- Traffic reroutes via backup path if available
+
+IMMEDIATE STEPS:
+1. Check interface status: show interfaces <interface>
+2. Check physical: inspect fiber or cable, check SFP LEDs
+3. Check error counters: show interfaces <interface> counters errors
+4. Test with loopback if possible
+5. Check remote end port status via NMS
+
+COMMON ROOT CAUSES:
+- Physical cable damaged or disconnected
+- SFP or transceiver failure
+- Remote port shutdown by mistake
+- Fiber cut in outside plant
+
+RESOLUTION:
+- Cable or SFP: Replace from spare inventory, MTTR around 20 minutes
+- Remote shutdown: Coordinate with remote NOC to re-enable
+- Fiber cut: Dispatch field engineer, MTTR 4 to 8 hours
+
+ESCALATION: If fiber cut suspected escalate to Field Ops immediately

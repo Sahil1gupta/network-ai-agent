@@ -1,0 +1,31 @@
+RUNBOOK: PACKET_LOSS — Intermittent Packet Loss
+================================================
+Severity: MAJOR or MINOR
+Affected: VoIP, Video, Business-critical applications
+
+SYMPTOMS:
+- ICMP ping showing more than 1 percent loss
+- VoIP calls dropping or poor quality
+- Customer complaints about slow internet
+
+IMMEDIATE STEPS:
+1. Confirm packet loss path: traceroute with extended options
+2. Identify which hop has loss
+3. Check interface error counters on that hop
+4. Check for duplex mismatch: show interfaces | include duplex
+5. Check QoS queue drops: show policy-map interface
+
+COMMON ROOT CAUSES:
+- Duplex mismatch on copper link
+- Degraded fiber or bad connector
+- QoS misconfiguration causing drops
+- Buffer overflow on congested link
+- Faulty optics or SFP degradation
+
+RESOLUTION:
+- Duplex: Set both ends to full-duplex or auto
+- Fiber: OTDR test, replace if degraded
+- QoS: Adjust queuing policy, increase buffer
+- Congestion: Add capacity or reroute traffic
+
+NOTE: More than 5 percent loss on critical path treat as CRITICAL

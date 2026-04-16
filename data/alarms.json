@@ -1,0 +1,924 @@
+[
+  {
+    "alarm_id": "ALM-00047",
+    "alarm_type": "POWER_FAULT",
+    "device": "BTS-Site-0023",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on BTS-Site-0023",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T00:01:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.251.22.86"
+  },
+  {
+    "alarm_id": "ALM-00048",
+    "alarm_type": "PACKET_LOSS",
+    "device": "AccessSwitch-007",
+    "region": "Dammam",
+    "severity": "MINOR",
+    "description": "Packet loss 11.6% detected on GigabitEthernet1/26",
+    "affected_services": [
+      "VoIP",
+      "Video Streaming",
+      "Business Apps"
+    ],
+    "timestamp": "2026-04-16T00:02:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.151.160.85"
+  },
+  {
+    "alarm_id": "ALM-00022",
+    "alarm_type": "PACKET_LOSS",
+    "device": "BTS-Site-0019",
+    "region": "Riyadh",
+    "severity": "MAJOR",
+    "description": "Packet loss 19.4% detected on GigabitEthernet1/18",
+    "affected_services": [
+      "VoIP",
+      "Video Streaming",
+      "Business Apps"
+    ],
+    "timestamp": "2026-04-16T00:22:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.137.121.4"
+  },
+  {
+    "alarm_id": "ALM-00017",
+    "alarm_type": "HIGH_CPU",
+    "device": "BTS-Site-0022",
+    "region": "Jeddah",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 99% on device BTS-Site-0022",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T00:30:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.119.83.187"
+  },
+  {
+    "alarm_id": "ALM-00002",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0025",
+    "region": "Dammam",
+    "severity": "MAJOR",
+    "description": "Physical link down on interface GigabitEthernet3/13",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T00:41:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.5.32.217"
+  },
+  {
+    "alarm_id": "ALM-00018",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-001",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-001",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T00:56:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.143.129.58"
+  },
+  {
+    "alarm_id": "ALM-00058",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0004",
+    "region": "Medina",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet1/37",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T00:57:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.158.167.248"
+  },
+  {
+    "alarm_id": "ALM-00056",
+    "alarm_type": "BGP_DOWN",
+    "device": "AccessSwitch-006",
+    "region": "Jeddah",
+    "severity": "MAJOR",
+    "description": "BGP session dropped with peer 10.26.182.142",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T01:48:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.251.204.19"
+  },
+  {
+    "alarm_id": "ALM-00005",
+    "alarm_type": "HIGH_CPU",
+    "device": "CoreRouter-Jeddah-03",
+    "region": "Dammam",
+    "severity": "MINOR",
+    "description": "CPU utilization at 90% on device CoreRouter-Jeddah-03",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T02:16:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.203.154.170"
+  },
+  {
+    "alarm_id": "ALM-00028",
+    "alarm_type": "BGP_DOWN",
+    "device": "AccessSwitch-001",
+    "region": "Medina",
+    "severity": "CRITICAL",
+    "description": "BGP session dropped with peer 10.185.118.49",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T02:25:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.188.105.90"
+  },
+  {
+    "alarm_id": "ALM-00009",
+    "alarm_type": "PACKET_LOSS",
+    "device": "BTS-Site-0029",
+    "region": "Medina",
+    "severity": "MAJOR",
+    "description": "Packet loss 13.9% detected on GigabitEthernet2/44",
+    "affected_services": [
+      "VoIP",
+      "Video Streaming",
+      "Business Apps"
+    ],
+    "timestamp": "2026-04-16T02:45:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.151.176.173"
+  },
+  {
+    "alarm_id": "ALM-00042",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-006",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-006",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T02:58:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.232.31.121"
+  },
+  {
+    "alarm_id": "ALM-00019",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0019",
+    "region": "Jeddah",
+    "severity": "MAJOR",
+    "description": "Physical link down on interface GigabitEthernet1/17",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T03:55:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.235.15.28"
+  },
+  {
+    "alarm_id": "ALM-00036",
+    "alarm_type": "HIGH_CPU",
+    "device": "BTS-Site-0028",
+    "region": "Khobar",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 89% on device BTS-Site-0028",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T03:57:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.86.154.191"
+  },
+  {
+    "alarm_id": "ALM-00035",
+    "alarm_type": "HIGH_CPU",
+    "device": "AccessSwitch-004",
+    "region": "Riyadh",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 93% on device AccessSwitch-004",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T04:31:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.28.99.190"
+  },
+  {
+    "alarm_id": "ALM-00008",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-011",
+    "region": "Dammam",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-011",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T04:33:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.214.239.214"
+  },
+  {
+    "alarm_id": "ALM-00052",
+    "alarm_type": "POWER_FAULT",
+    "device": "BTS-Site-0019",
+    "region": "Medina",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on BTS-Site-0019",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T04:59:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.71.149.111"
+  },
+  {
+    "alarm_id": "ALM-00041",
+    "alarm_type": "BGP_DOWN",
+    "device": "BTS-Site-0017",
+    "region": "Jeddah",
+    "severity": "CRITICAL",
+    "description": "BGP session dropped with peer 10.255.139.121",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T05:18:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.212.206.15"
+  },
+  {
+    "alarm_id": "ALM-00046",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0015",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet0/47",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T06:12:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.86.56.39"
+  },
+  {
+    "alarm_id": "ALM-00039",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-002",
+    "region": "Khobar",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-002",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T06:31:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.20.249.141"
+  },
+  {
+    "alarm_id": "ALM-00025",
+    "alarm_type": "POWER_FAULT",
+    "device": "BTS-Site-0010",
+    "region": "Dammam",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on BTS-Site-0010",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T07:09:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.245.170.157"
+  },
+  {
+    "alarm_id": "ALM-00003",
+    "alarm_type": "HIGH_CPU",
+    "device": "AccessSwitch-016",
+    "region": "Dammam",
+    "severity": "MINOR",
+    "description": "CPU utilization at 99% on device AccessSwitch-016",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T07:14:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.49.36.147"
+  },
+  {
+    "alarm_id": "ALM-00037",
+    "alarm_type": "HIGH_CPU",
+    "device": "BTS-Site-0018",
+    "region": "Khobar",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 92% on device BTS-Site-0018",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T07:19:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.166.124.61"
+  },
+  {
+    "alarm_id": "ALM-00023",
+    "alarm_type": "PACKET_LOSS",
+    "device": "BTS-Site-0015",
+    "region": "Dammam",
+    "severity": "MINOR",
+    "description": "Packet loss 26.4% detected on GigabitEthernet3/0",
+    "affected_services": [
+      "VoIP",
+      "Video Streaming",
+      "Business Apps"
+    ],
+    "timestamp": "2026-04-16T07:58:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.212.105.188"
+  },
+  {
+    "alarm_id": "ALM-00015",
+    "alarm_type": "BGP_DOWN",
+    "device": "CoreRouter-Riyadh-02",
+    "region": "Riyadh",
+    "severity": "MAJOR",
+    "description": "BGP session dropped with peer 10.23.188.133",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T08:43:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.148.199.56"
+  },
+  {
+    "alarm_id": "ALM-00044",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-018",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-018",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T09:09:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.166.165.159"
+  },
+  {
+    "alarm_id": "ALM-00043",
+    "alarm_type": "BGP_DOWN",
+    "device": "CoreRouter-Riyadh-05",
+    "region": "Medina",
+    "severity": "CRITICAL",
+    "description": "BGP session dropped with peer 10.171.14.248",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T09:24:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.190.79.164"
+  },
+  {
+    "alarm_id": "ALM-00040",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-012",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-012",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T10:06:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.83.41.200"
+  },
+  {
+    "alarm_id": "ALM-00004",
+    "alarm_type": "BGP_DOWN",
+    "device": "BTS-Site-0023",
+    "region": "Khobar",
+    "severity": "MAJOR",
+    "description": "BGP session dropped with peer 10.106.211.27",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T11:00:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.103.193.58"
+  },
+  {
+    "alarm_id": "ALM-00011",
+    "alarm_type": "HIGH_CPU",
+    "device": "CoreRouter-Riyadh-01",
+    "region": "Riyadh",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 90% on device CoreRouter-Riyadh-01",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T11:13:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.154.162.221"
+  },
+  {
+    "alarm_id": "ALM-00029",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0012",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet2/46",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T11:36:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.202.143.92"
+  },
+  {
+    "alarm_id": "ALM-00014",
+    "alarm_type": "BGP_DOWN",
+    "device": "AccessSwitch-004",
+    "region": "Medina",
+    "severity": "MAJOR",
+    "description": "BGP session dropped with peer 10.112.9.207",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T11:49:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.116.105.88"
+  },
+  {
+    "alarm_id": "ALM-00027",
+    "alarm_type": "HIGH_CPU",
+    "device": "AccessSwitch-010",
+    "region": "Dammam",
+    "severity": "MINOR",
+    "description": "CPU utilization at 91% on device AccessSwitch-010",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T12:07:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.137.231.4"
+  },
+  {
+    "alarm_id": "ALM-00030",
+    "alarm_type": "POWER_FAULT",
+    "device": "CoreRouter-Riyadh-03",
+    "region": "Jeddah",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on CoreRouter-Riyadh-03",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T12:16:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.45.6.230"
+  },
+  {
+    "alarm_id": "ALM-00013",
+    "alarm_type": "BGP_DOWN",
+    "device": "AccessSwitch-009",
+    "region": "Riyadh",
+    "severity": "MAJOR",
+    "description": "BGP session dropped with peer 10.12.74.227",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T12:24:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.5.78.51"
+  },
+  {
+    "alarm_id": "ALM-00032",
+    "alarm_type": "POWER_FAULT",
+    "device": "BTS-Site-0024",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on BTS-Site-0024",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T12:35:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.73.108.134"
+  },
+  {
+    "alarm_id": "ALM-00007",
+    "alarm_type": "PACKET_LOSS",
+    "device": "CoreRouter-Jeddah-01",
+    "region": "Khobar",
+    "severity": "MINOR",
+    "description": "Packet loss 37.3% detected on GigabitEthernet1/5",
+    "affected_services": [
+      "VoIP",
+      "Video Streaming",
+      "Business Apps"
+    ],
+    "timestamp": "2026-04-16T12:52:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.241.230.76"
+  },
+  {
+    "alarm_id": "ALM-00060",
+    "alarm_type": "BGP_DOWN",
+    "device": "AccessSwitch-012",
+    "region": "Medina",
+    "severity": "CRITICAL",
+    "description": "BGP session dropped with peer 10.126.227.245",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T12:55:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.154.245.47"
+  },
+  {
+    "alarm_id": "ALM-00031",
+    "alarm_type": "PACKET_LOSS",
+    "device": "CoreRouter-Riyadh-02",
+    "region": "Jeddah",
+    "severity": "MAJOR",
+    "description": "Packet loss 34.1% detected on GigabitEthernet2/6",
+    "affected_services": [
+      "VoIP",
+      "Video Streaming",
+      "Business Apps"
+    ],
+    "timestamp": "2026-04-16T14:16:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.37.138.184"
+  },
+  {
+    "alarm_id": "ALM-00049",
+    "alarm_type": "HIGH_CPU",
+    "device": "BTS-Site-0006",
+    "region": "Khobar",
+    "severity": "MINOR",
+    "description": "CPU utilization at 98% on device BTS-Site-0006",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T14:20:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.147.236.195"
+  },
+  {
+    "alarm_id": "ALM-00051",
+    "alarm_type": "LINK_FAILURE",
+    "device": "AccessSwitch-006",
+    "region": "Jeddah",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet1/14",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T15:37:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.134.235.130"
+  },
+  {
+    "alarm_id": "ALM-00045",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-002",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-002",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T15:40:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.145.136.116"
+  },
+  {
+    "alarm_id": "ALM-00055",
+    "alarm_type": "HIGH_CPU",
+    "device": "AccessSwitch-002",
+    "region": "Riyadh",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 98% on device AccessSwitch-002",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T15:41:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.211.201.23"
+  },
+  {
+    "alarm_id": "ALM-00010",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-008",
+    "region": "Dammam",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-008",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T15:43:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.111.179.28"
+  },
+  {
+    "alarm_id": "ALM-00021",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-012",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-012",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T15:45:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.31.53.114"
+  },
+  {
+    "alarm_id": "ALM-00053",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0014",
+    "region": "Jeddah",
+    "severity": "MAJOR",
+    "description": "Physical link down on interface GigabitEthernet2/10",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T15:57:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.141.25.151"
+  },
+  {
+    "alarm_id": "ALM-00033",
+    "alarm_type": "HIGH_CPU",
+    "device": "BTS-Site-0019",
+    "region": "Khobar",
+    "severity": "MINOR",
+    "description": "CPU utilization at 95% on device BTS-Site-0019",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T16:32:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.69.72.203"
+  },
+  {
+    "alarm_id": "ALM-00001",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0028",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet1/3",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T16:52:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.192.44.113"
+  },
+  {
+    "alarm_id": "ALM-00050",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-011",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-011",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T18:18:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.221.33.75"
+  },
+  {
+    "alarm_id": "ALM-00020",
+    "alarm_type": "BGP_DOWN",
+    "device": "BTS-Site-0003",
+    "region": "Dammam",
+    "severity": "CRITICAL",
+    "description": "BGP session dropped with peer 10.7.1.174",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T18:40:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.235.74.74"
+  },
+  {
+    "alarm_id": "ALM-00024",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-002",
+    "region": "Jeddah",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-002",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T18:43:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.248.61.238"
+  },
+  {
+    "alarm_id": "ALM-00012",
+    "alarm_type": "BGP_DOWN",
+    "device": "CoreRouter-Riyadh-05",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "BGP session dropped with peer 10.118.210.19",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T18:58:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.133.155.1"
+  },
+  {
+    "alarm_id": "ALM-00034",
+    "alarm_type": "HIGH_CPU",
+    "device": "BTS-Site-0020",
+    "region": "Medina",
+    "severity": "MAJOR",
+    "description": "CPU utilization at 94% on device BTS-Site-0020",
+    "affected_services": [
+      "Routing",
+      "NAT",
+      "Firewall Processing"
+    ],
+    "timestamp": "2026-04-16T19:49:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.140.91.201"
+  },
+  {
+    "alarm_id": "ALM-00026",
+    "alarm_type": "LINK_FAILURE",
+    "device": "BTS-Site-0015",
+    "region": "Khobar",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet1/32",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T19:50:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.174.59.162"
+  },
+  {
+    "alarm_id": "ALM-00038",
+    "alarm_type": "LINK_FAILURE",
+    "device": "AccessSwitch-003",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet1/31",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T20:07:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.70.188.103"
+  },
+  {
+    "alarm_id": "ALM-00057",
+    "alarm_type": "POWER_FAULT",
+    "device": "AccessSwitch-018",
+    "region": "Riyadh",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on AccessSwitch-018",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T20:50:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.253.95.133"
+  },
+  {
+    "alarm_id": "ALM-00006",
+    "alarm_type": "POWER_FAULT",
+    "device": "BTS-Site-0007",
+    "region": "Jeddah",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on BTS-Site-0007",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T21:47:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.4.224.34"
+  },
+  {
+    "alarm_id": "ALM-00059",
+    "alarm_type": "BGP_DOWN",
+    "device": "AccessSwitch-015",
+    "region": "Medina",
+    "severity": "MAJOR",
+    "description": "BGP session dropped with peer 10.109.20.39",
+    "affected_services": [
+      "Internet",
+      "MPLS VPN",
+      "Enterprise Connectivity"
+    ],
+    "timestamp": "2026-04-16T22:40:58.285554",
+    "acknowledged": true,
+    "source_ip": "10.217.52.32"
+  },
+  {
+    "alarm_id": "ALM-00054",
+    "alarm_type": "POWER_FAULT",
+    "device": "BTS-Site-0006",
+    "region": "Mecca",
+    "severity": "CRITICAL",
+    "description": "Power supply unit failure on BTS-Site-0006",
+    "affected_services": [
+      "All Services at Site"
+    ],
+    "timestamp": "2026-04-16T22:55:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.96.71.44"
+  },
+  {
+    "alarm_id": "ALM-00016",
+    "alarm_type": "LINK_FAILURE",
+    "device": "AccessSwitch-016",
+    "region": "Jeddah",
+    "severity": "CRITICAL",
+    "description": "Physical link down on interface GigabitEthernet1/9",
+    "affected_services": [
+      "Broadband",
+      "Mobile Data",
+      "Enterprise Leased Line"
+    ],
+    "timestamp": "2026-04-16T23:33:58.285554",
+    "acknowledged": false,
+    "source_ip": "10.112.249.21"
+  }
+]

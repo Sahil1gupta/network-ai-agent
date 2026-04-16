@@ -1,0 +1,31 @@
+RUNBOOK: HIGH_CPU — Router CPU Overload
+========================================
+Severity: MAJOR
+Affected: Routing stability, BGP sessions, NAT processing
+
+SYMPTOMS:
+- SNMP CPU threshold exceeded above 80 percent
+- Routing protocol flaps
+- Increased latency on management access
+
+IMMEDIATE STEPS:
+1. Check CPU processes: show processes cpu sorted
+2. Identify top consuming process
+3. Check for traffic anomalies: show interface stats
+4. Look for DDoS or attack traffic
+5. Review recent config changes
+
+COMMON ROOT CAUSES:
+- DDoS attack targeting router control plane
+- Software bug or memory leak
+- Excessive SNMP polling
+- Routing protocol instability causing high BGP updates
+- ACL too complex causing high lookup overhead
+
+RESOLUTION:
+- DDoS: Apply control-plane policing CoPP, block attack source
+- Software bug: Schedule maintenance for IOS upgrade
+- SNMP: Increase polling interval or reduce OID scope
+- BGP storm: Apply route filters to limit update processing
+
+ESCALATION: CPU above 95 percent for more than 5 minutes with no clear cause escalate to L3 immediately

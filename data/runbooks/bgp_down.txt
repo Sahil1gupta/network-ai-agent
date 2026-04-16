@@ -1,0 +1,32 @@
+RUNBOOK: BGP_DOWN — BGP Session Failure
+========================================
+Severity: CRITICAL
+Affected: Internet connectivity, MPLS VPN, Enterprise services
+
+SYMPTOMS:
+- BGP neighbor state transitions to Idle or Active
+- Routes withdrawn from routing table
+- Customer traffic dropping on affected segments
+
+IMMEDIATE STEPS:
+1. Check physical connectivity: ping peer IP from router CLI
+2. Verify BGP configuration: show running-config | section bgp
+3. Check BGP neighbor state: show bgp neighbors <peer-ip>
+4. Look for error messages: show log | include BGP
+5. Verify port 179 not blocked: telnet <peer-ip> 179
+
+COMMON ROOT CAUSES:
+- Physical link failure (most common — 60% of cases)
+- ACL blocking port 179
+- Authentication mismatch (MD5 key changed)
+- Peer router reboot or maintenance
+- MTU mismatch causing OPEN message drops
+
+RESOLUTION BY CAUSE:
+- Link failure: Replace cable or SFP, contact upstream provider
+- ACL block: Remove ACL entry blocking port 179
+- Auth mismatch: Verify and correct password on both sides
+- Peer reboot: Wait for BGP holdtime expiry and reconvergence
+
+ESCALATION: If not resolved in 30 minutes escalate to L3 Network Engineering
+IMPACT ESTIMATE: Up to 50,000 users per session failure

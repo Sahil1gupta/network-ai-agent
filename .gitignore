@@ -1,0 +1,26 @@
+.env
+venv/
+__pycache__/
+
+
+__pycache__/
+*.pyc
+.env
+venv/
+*.log
+
+# stc-autooss/
+# ├── data/
+# │   ├── runbooks/
+# │   ├── alarms.json           ← Day 1 mein banega
+# │   ├── past_tickets.json     ← Day 1 mein banega
+# │   └── chroma_db/            ← Day 2 mein banega
+# ├── src/
+# │   ├── llm_client.py         ← Central OpenAI connection
+# │   ├── rag_pipeline.py       ← Vector DB build + retrieve
+# │   ├── agents.py             ← 4 agents
+# │   ├── pipeline.py           ← Sab agents connect karo
+# │   └── test_pipeline.py      ← End-to-end test
+# ├── generate_data.py          ← Synthetic data
+# ├── test.py                   ← Verify setup
+# └── .env                      ← API key (never commit this)

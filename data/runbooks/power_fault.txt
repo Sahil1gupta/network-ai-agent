@@ -1,0 +1,33 @@
+RUNBOOK: POWER_FAULT — Power Supply Failure
+=============================================
+Severity: CRITICAL
+Affected: All services at affected site if single PSU
+
+SYMPTOMS:
+- SNMP power supply alarm active
+- PSU status LED red
+- Event log shows PSU failure
+
+IMMEDIATE STEPS:
+1. Check how many PSUs device has, N+1 or single
+2. If N+1: second PSU taking load, non-service impacting
+3. If single PSU: device at risk, treat as URGENT
+4. Check power input: verify commercial power healthy
+5. Check UPS battery level
+
+COMMON ROOT CAUSES:
+- PSU hardware failure
+- Commercial power outage
+- UPS battery exhaustion
+- Overload due to added hardware
+
+RESOLUTION:
+- Replace failed PSU from spare parts inventory
+- For single PSU: prepare for emergency failover
+- If commercial power issue: coordinate with facilities team
+- If UPS failure: dispatch electrician immediately
+
+MTTR Target:
+- N+1 setup: 4 hours preventive replacement
+- Single PSU with spare: 1 hour
+- No spare: escalate to procurement immediately
