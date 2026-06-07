@@ -1,0 +1,17 @@
+[
+  {
+    "company": "Flipkart",
+    "role": "Backend Dev",
+    "salary": 25
+  },
+  {
+    "company": "Swiggy",
+    "role": "Java Dev",
+    "salary": 20
+  },
+  {
+    "company": "TCS",
+    "role": "Java Dev",
+    "salary": 8
+  }
+]

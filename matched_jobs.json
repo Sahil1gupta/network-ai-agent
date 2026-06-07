@@ -1,0 +1,46 @@
+[
+  {
+    "company": "Flipkart",
+    "role": "Backend Dev",
+    "salary": 25,
+    "skills": [
+      "Spring Boot",
+      "Java",
+      "Kafka"
+    ],
+    "matched": [
+      "Spring Boot",
+      "Java"
+    ],
+    "score": 2
+  },
+  {
+    "company": "Paytm",
+    "role": "Java Dev",
+    "salary": 18,
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL"
+    ],
+    "matched": [
+      "Spring Boot",
+      "Java"
+    ],
+    "score": 2
+  },
+  {
+    "company": "Swiggy",
+    "role": "Full Stack",
+    "salary": 20,
+    "skills": [
+      "React",
+      "Node",
+      "MongoDB"
+    ],
+    "matched": [
+      "React"
+    ],
+    "score": 1
+  }
+]
